@@ -16,5 +16,8 @@ public class TestMainWork {
         System.out.println("------------------------------");
         MainWork.disp();
 
+        MainWork.NestedClass AI = new MainWork.NestedClass();
+        AI.display();
+
     }
 }

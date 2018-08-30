@@ -1,6 +1,6 @@
 package CoreJava;
 
-public class MainWork {
+public static class MainWork {
 
     //all valid change is appreciable.
 
@@ -53,7 +53,14 @@ public class MainWork {
         }
     }
 
+    static void Megatron(){
+        int Mega  = 1;
+        do {
+            System.out.println("This is Megatron." +Mega);
+            Mega++;
+        } while (Mega <= 5);
 
+    }
 
 
 

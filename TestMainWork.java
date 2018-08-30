@@ -18,6 +18,12 @@ public class TestMainWork {
 
         MainWork.NestedClass AI = new MainWork.NestedClass();
         AI.display();
+        MainWork.speedOfPrime prime = new MainWork.speedOfPrime();
+        prime.display();
+        MainWork.speedOfBumbleBee bee = new MainWork.speedOfBumbleBee();
+        bee.display();
+        MainWork.OptimusPrime();
+        MainWork.BumbleBee(); //latest
 
     }
 }

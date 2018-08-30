@@ -25,6 +25,35 @@ public class MainWork {
             System.out.println("Moto of AI: " + AI);
         }
     }
+    static class speedOfPrime{
+        void display(){
+            System.out.println("Speed of Optimus Prime is: " + speedOfPrime);
+        }
+    }
+
+    static class speedOfBumbleBee{
+        void display(){
+            System.out.println("Speed of Optimus Prime is: " + speedOfBumbleBee);
+        }
+    }
+
+    static void OptimusPrime(){
+        int AI = 1;
+        for (AI = 1; AI <= 5; AI++ ){
+            System.out.println("Optimus Prime " +AI);
+        }
+
+    }
+
+    static void BumbleBee(){
+        int BEE = 1;
+        while (BEE <= 5){
+            System.out.println("Bumble Bee " +BEE);
+            BEE++;
+        }
+    }
+
+
 
 
 

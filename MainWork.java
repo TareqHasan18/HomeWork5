@@ -62,6 +62,15 @@ public static class MainWork {
 
     }
 
+    //for each loop
+    static void AIForEach(String[] data){
+        String[] arr = {"Optimus Prime", "Bumble Bee", "Megaetron"};
+        System.out.println("Transformers");
+        for (String a : data){
+            System.out.println(a+ " ");
+        }
+    }
+
 
 
 

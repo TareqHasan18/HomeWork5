@@ -28,5 +28,13 @@ public class TestMainWork {
         MainWork.BumbleBee(); //latest
         MainWork.Megatron();
 
+        Stack<String> stack = new Stack<>();
+        stack.push("Optimus");
+        stack.push("Bee");
+        stack.push("Megatron");
+        stack.push("Alphatron");
+
+        System.out.println(stack.peek()+ " is among The transformers.");
+
     }
 }

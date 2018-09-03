@@ -51,5 +51,8 @@ public class TestMainWork {
             System.out.println("both are equally strong");
         }
 
+        //exception handle method
+        MainWork.exceptionhandle();
+
     }
 }

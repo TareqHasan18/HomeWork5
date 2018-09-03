@@ -71,6 +71,19 @@ public static class MainWork {
         }
     }
 
+    //exception handle method
+    static void exceptionhandle(){
+        int weightOfAlphatron = 890;
+        int weightOfBee = 0;
+        try{
+
+            int ratio = weightOfAlphatron/weightOfBee;
+            System.out.println(ratio);
+        }catch (ArithmeticException ex){
+            System.out.println("alpha doesn't have more weight than bee. " +ex);
+        };
+    }
+
 
 
 

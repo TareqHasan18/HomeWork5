@@ -1,5 +1,7 @@
 package CoreJava;
 
+import java.util.Scanner;
+
 public class TestMainWork {
     public static void main(String[] args) {
 
@@ -37,7 +39,17 @@ public class TestMainWork {
         System.out.println("Transformers stack contains" +stack);
         System.out.println(stack.peek()+ " is among The transformers.");
 
-
+        //added scanner
+        Scanner trans = new Scanner(System.in);
+        System.out.println("pls enter the numbers: ");
+        int strength1 = trans.nextInt(), strength2 = trans.nextInt();
+        if (strength1 > strength2){
+            System.out.println("optimus is stronger than megatron");
+        }else if (strength2 > strength1){
+            System.out.println("megatron is stronger than optimus");
+        }else {
+            System.out.println("both are equally strong");
+        }
 
     }
 }

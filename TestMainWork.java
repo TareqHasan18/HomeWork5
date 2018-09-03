@@ -34,7 +34,10 @@ public class TestMainWork {
         stack.push("Megatron");
         stack.push("Alphatron");
 
+        System.out.println("Transformers stack contains" +stack);
         System.out.println(stack.peek()+ " is among The transformers.");
+
+
 
     }
 }

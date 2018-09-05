@@ -1,5 +1,8 @@
 package CoreJava;
 
+import java.util.LinkedList;
+import java.util.Stack;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class TestMainWork {
@@ -53,6 +56,31 @@ public class TestMainWork {
 
         //exception handle method
         MainWork.exceptionhandle();
+
+        //queue added
+        Queue<Integer> que = new LinkedList<>();
+
+        // Adds elements {99, 100, 101, 102, 103, 104,105} to queue
+        for (int i=99; i<=105; i++)
+            que.add(i);
+
+        // This will Display contents of the queue.
+        System.out.println("Elements of queue-"+que);
+
+        // This will remove the head of queue.
+        int removedele = que.remove();
+        System.out.println("removed element-" + removedele);
+
+        System.out.println(que);
+
+        // This will print the head of queue
+        int head = que.peek();
+        System.out.println("head of queue-" + head);
+
+
+        // This will print the size of queue.
+        int size = que.size();
+        System.out.println("Size of queue-" + size);
 
     }
 }

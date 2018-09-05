@@ -1,9 +1,6 @@
 package CoreJava;
 
-import java.util.LinkedList;
-import java.util.Stack;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class TestMainWork {
     public static void main(String[] args) {
@@ -81,6 +78,40 @@ public class TestMainWork {
         // This will print the size of queue.
         int size = que.size();
         System.out.println("Size of queue-" + size);
+
+
+
+        /* Creating ArrayList of type "String" which means
+         * we can only add "String" elements
+         */
+        ArrayList<String> obj = new ArrayList<String>();
+
+        /*This is how we add elements to an ArrayList*/
+        obj.add("Riad");
+        obj.add("Hasan");
+        obj.add("Rifat");
+        obj.add("Abby");
+        obj.add("Tofael");
+        obj.add("Shams");
+        obj.add("Tareq");
+
+
+        obj.add(3, "Ahmed");
+
+
+        //Remove elements from ArrayList like this
+        obj.remove("Tareq"); //Removes "Tareq" from ArrayList
+
+
+
+        //Remove element from the specified index
+        obj.remove(1); //Removes Second element from the List
+
+        // Displaying elements
+        System.out.println("Final ArrayList:");
+        for(String str:obj)
+            System.out.println(str);
+
 
     }
 }

@@ -113,5 +113,16 @@ public class TestMainWork {
             System.out.println(str);
 
 
+        //handle exception added
+        try {
+            int a [] = {8, 6 , 4, 7};
+            //int a[] = new int[4];
+            System.out.println("Access element three :" + a[5]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception thrown  :" + e);
+        }
+        System.out.println("Out of the block");
+
+
     }
 }

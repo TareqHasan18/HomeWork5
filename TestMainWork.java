@@ -124,5 +124,21 @@ public class TestMainWork {
         System.out.println("Out of the block");
 
 
+        // Random examples
+        int numTests = 5;
+
+        // creating a new Java Random object
+        Random random = new Random();
+        for ( int i=0; i<numTests; i++ )
+        {
+            // get the next random int
+            int randomInt = random.nextInt(100);
+            System.out.format("Optimus %2d, Prime = %d\n", i+1, randomInt );
+            //OR
+            //System.out.println("Optimus Prime " +randomInt);
+
+        }
+
+
     }
 }
